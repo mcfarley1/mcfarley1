@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mcfarley1
-- 👀 I’m interested in automating Excel to do things that Excel wouldn't normally do.  This ranges from the frivolous (making games in Excel) to the serious (using Excel for processing data and cleaning dirty data).
+- 👀 I’m interested in automating Excel to do things that Excel wouldn't normally do.  This ranges from the frivolous (making games and unusual conditional formatting in Excel) to the serious (using Excel for processing data and cleaning dirty data).
 - 🌱 I’m currently learning VBA.
 
 
