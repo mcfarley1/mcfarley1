@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fun Coding Projects</title>
+    <meta name="description" content="Megan Farley's Fun Coding Projects">
+    <meta name="keywords" content="Megan Farley, Megan Christina Farley, Code, Megan Farley Code, Megan Christina Farley Code">
+    <meta name="author" content="Megan Farley">
+  </head>
+  <body>
+    <h2>Excel VBA (files for download)</h2>
+    <p>
+      <strong>Using Excel for Conway's Game of Life</strong>
+      <br>
+      <br>
+      I’ve created Conway’s Game of Life in Excel, which is a mathematical game with only four rules:
+      <br>
+      <ol>
+        <li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+        <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+        <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+        <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+      </ol>
+      In the version called “User Choice”, you create the initial conditions, or “seed”, by filling in the cells you want with a color. To do this quickly, select desired cells and press control+k. To turn cells back to white, select desired cells and press control+r. The game space is limited to the space within the rectangle border. When you’re ready to play, just hit the button. You can choose how many generations you want it to run. Each generation lasts a little under a second, so choose wisely, or else you will have to use your task manager to end it if it lasts too long. There are ways to set up initial conditions to create certain objects, like stable patterns, oscillating patterns, and “spaceships” that glide across the screen. There’s a Wikipedia article about it: <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life</a>. Also, for fun, Google Conway’s Game of Life to see it happen in your browser.
+      <br>
+      <br>
+      In the one called “Random Beginning”, it will create a random seed when you hit the button. You don’t create the seed in this one. Just choose initial population density, as well as the number of generations.
+      <br>
+      <br>
+      These versions of Conway’s Game of Life change color, with colors reflecting which generation the cells come from.
+      <br>
+      <br>
+      Enjoy!
+      <ul>
+        <li><a href="VBA/Conway's Game of Life (User Choice).xlsm">Conway's Game of Life (User Choice)</a></li>
+        <li><a href="VBA/Conway's Game of Life (Random Beginning).xlsm">Conway's Game of Life (Random Beginning)</a></li>
+      </ul>
+    </p>
+    <hr>
+    <p>
+      <strong>A variation of Wordle using Excel that can be adapted to specific scenarios.</strong>
+      <br>
+      <br>
+      Weirdle operates similarly to "Wordle", and also has a new word come into play once per day. Words range from 4 to 6 letters, and can be customized to suit a particular audience. Weirdle has a tab called "Words" in which the word list appears in column B and the dates they will be active appear in column A. A user can customize this word list, adding as many words as they desire, and set the dates for when each word will be in play. To prevent errors, if the current date is not included in the date range, the first date will automatically reset to the current date, and all subsequent dates will be adjusted accordingly with one day intervals. Once the list is customized, the "Words" tab should be hidden if you desire to prevent cheating. There is also a fake keyboard on the right that will change color according to correct or incorrect choice and placement of letters. The instructions are included in the spreadsheet, and are as follows:
+      <br>
+      <br>
+      <ol>
+        <li>The length of the word is represented by the number of gray boxes.</li>
+        <li>Enter your guess in cell B8, then press the "Play" button.</li>
+        <li>Letters that are correct and in the correct location will appear green.</li>
+        <li>Letters that are correct but are in the wrong location will appear amber.</li>
+        <li>Letters that are incorrect will remain black, and will be shaded dark gray in the fake keyboard on the right.</li>
+        <li>You get ten attempts.</li>
+      </ol>
+      <ul>
+        <li><a href="VBA/Weirdle (Medical Examiner and Coroner Edition).xlsm">Weirdle (Medical Examiner and Coroner Edition)</a></li>
+      </ul>
+    </p>
+    <hr>
+    <p>
+      <strong>Two basic fun games in Excel.</strong>
+      <br>
+      <br>
+      There are two tabs, each containing a different variation of a game where the goal is to turn all tiles in the grid from red to green. Instructions are in each tab. First, select a level by pressing the "Select Level" button. Then select the desired tile and press the "Play" button to change the color of the selected tile and its neighbors. Press the "Cheat" button to see a winning sequence of cells, and "Uncheat" to hide the sequence.
+      <br>
+      <ul>
+        <li><a href="VBA/FlipGame.xlsm">FlipGame</a></li>
+      </ul>
+    </p>
+  </body>
+</html>
